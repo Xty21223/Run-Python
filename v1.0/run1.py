@@ -27,7 +27,6 @@
 
 #######################################################################
 
-
 def pr(text, end="\n", color="black", raw="no"):
   color = color.lower()
   if color == "black":
