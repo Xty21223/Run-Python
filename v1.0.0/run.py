@@ -52,7 +52,7 @@ def pr(text, end="\n", color="black", raw="no"):
   else:
     raise NameError("\033[91mThat's not a color!\033[00m")
 def pr_list(lst, fancy=True, join=", "):
-if fancy:  
-  print(join.join(map(str,lst)))
-else:
-  print(lst)
+  if fancy:  
+    print(join.join(map(str,lst)))
+  else:
+    print(lst)
